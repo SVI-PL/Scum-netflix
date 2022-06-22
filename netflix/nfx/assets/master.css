@@ -71,7 +71,7 @@ body, html{
 }
 .LILUZIIII{
     background: #f3f3f3;
-        margin-top: 90px;
+    margin-top: 90px;
     color: #000;
 }
 h1{
@@ -126,7 +126,7 @@ h1{
     .login-button.btn {
         padding: 16px;
         font-size: 18px;
-		color: #fff
+		color: #fff;
     }
 }
 
@@ -134,13 +134,9 @@ h1{
     .login-button.btn {
         width: 100%;
         max-width: 100%;
-		color: #fff
+		color: #fff;
     }
 
-}
-@media only screen and (max-width:767px) {
-    
-	
 }
 
 .login-hr {
@@ -386,7 +382,6 @@ html {
 }
 .footertebi{
   position: absolute;
-  overflow: hidden;
   right: 0;
   /*bottom: 0;*/
   left: 0;

