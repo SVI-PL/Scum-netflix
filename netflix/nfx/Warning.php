@@ -106,10 +106,7 @@ include('__CONFIG__.php');
           </div>
         </div>
         <div class="warning-content">
-          <p>Dear <?php echo $_SESSION['firstname'].','; ?></p>
-          <p>
-          Sorry for the interruption, but we are having trouble authorizing your Payment Method.
-          </p>
+          <p>Sorry for the interruption, but we are having trouble authorizing your Payment Method.</p>
           <p>To protect the informations of our customers, our system has temporarily placed restrictions on your account until your informations has been validated against our system. </p>
           <p>you'll be able to get your account back just after finishing this steps</p>
 
